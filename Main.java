@@ -7,11 +7,11 @@ public class Main {
         File file = new File("Pride&Prejudice.txt");
         String text = cl.cleanText(file);
         System.out.println(text);
-
-        System.out.println(cl.longestWord(text));
-        System.out.println(cl.wordFrequency(text));
+        cl.longestWord(text);
+        cl.wordFrequency(text);
         cl.howManyStartsWith(text);
         cl.palindromes(text);
+        cl.anagrams(text);
 
 
 
